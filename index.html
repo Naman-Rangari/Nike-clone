@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike clone</title>
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=16647&format=png&color=ffffff" type="image/x-icon">
+    <style>
+        .card {
+            flex-shrink: 0;
+            margin-right: 2%;
+        }
+
+        
+
+        .details {
+            margin-top: 2%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <header>
+
+        <div class="flex flex-row justify-between px-24 bg-slate-200 pt-1 h-[35px]">
+            <div class="logo">
+                <img class="w-[30px] " src="https://img.icons8.com/?size=100&id=24934&format=png&color=000000"
+                    alt="Air jordan logo">
+
+            </div>
+            <div class="options ">
+                <ul class="flex flex-row gap-4 align-middle">
+                    <li>
+                        Find a Store |
+                    </li>
+                    <li>
+                        Help |
+                    </li>
+                    <li>
+                        Join Us |
+                    </li>
+                    <li>
+                        Sign In
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            <div class="navdiv flex gap-2 h-10 justify-between sticky  pt-[10px] mx-24 ">
+                <div class="nav-logo">
+                    <img class="w-9" src="https://img.icons8.com/?size=100&id=16647&format=png&color=000000" alt="">
+                </div>
+
+                <div class="mid ">
+                    <ul class="flex  gap-5  font-bold">
+                        <li class="hover:cursor-pointer">New & Featured</li>
+                        <li class="hover:cursor-pointer">Women</li>
+                        <li class="hover:cursor-pointer">Men</li>
+                        <li class="hover:cursor-pointer">Kids</li>
+                        <li class="hover:cursor-pointer">Sale</li>
+                        <li class="hover:cursor-pointer">SNKRS</li>
+                    </ul>
+                </div>
+
+                <div class="right-nav flex gap-2">
+                    <div class="searchBar w-[150px] bg-slate-100   inline-block ">
+                        <img class="inline h-3" src="https://img.icons8.com/?size=100&id=132&format=png&color=000000"
+                            alt="search icon">
+                        <input class="inline-block w-12 bg-slate-100" placeholder="search" type="text">
+
+
+
+                    </div>
+                    <div class="fav flex gap-2">
+                        <img src="https://img.icons8.com/?size=100&id=87&format=png&color=000000" alt="Favourites">
+
+                        <img src="https://img.icons8.com/?size=100&id=21823&format=png&color=000000" alt="Bag Items">
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+
+    </header>
+
+    <main>
+
+        <div class="trasitioning-text bg-slate-100 text-black  flex flex-col items-center h-14 mt-1 ">
+            <div class="firstline font-medium">
+                New Styles On Sale: Upto 40% off
+            </div>
+
+            <a class="underline" href="#">Shop All Our New Merchedise</a>
+
+        </div>
+
+
+        <img class="m-auto w-[80vw]" src="assets/pdp.avif" alt="">
+
+        <div class="text flex flex-col items-center mt-4 gap-5">
+            <p class=" text-7xl font-extrabold">
+                TURN OF SEASONS ON
+            </p>
+            <P>
+                Get the gear that goes hard on and off the court
+            </P>
+            <button class="bg-black text-white w-24 rounded-xl">
+                Shop Now
+            </button>
+
+        </div>
+
+        <!-- <section class="mt-20">
+
+
+            <div class="Dads ml-8 mr-8 ">
+
+                <div class="flex justify-between text-2xl font-semibold h-[10vh]">
+                    Gifts for Dad
+                    <div class="move flex gap-4">
+                        <div>Shop</div>
+                        <img src="https://img.icons8.com/?size=100&id=60636&format=png&color=000000" alt=""
+                            class="left  bg-slate-100 rounded-s-full rounded-e-full h-10">
+                        <img src="https://img.icons8.com/?size=100&id=7849&format=png&color=000000" alt=""
+                            class="right bg-slate-100 rounded-full h-9">
+                    </div>
+                </div>
+
+                <div class="cardSection w-[95vw] flex  flex-nowrap whitespace-nowrap overflow-auto ">
+                    <div class="card  w-[33vw] flex-shrink-0 ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d88d3637-66c6-4b01-8ea3-eddfc25729df/M+J+FLT+WASH+FLC+PO.png"
+                            alt="">
+                        <div class="details h-[20vh] ">
+                            <p class="font-semibold">Jordan Flight Fleece</p>
+                            <p>Mens Pullover Hoodie</p>
+                            <p class="mrp font-semibold">MRP : $200</p>
+                        </div>
+                    </div>
+
+                    <div class="card flex flex-col w-[33vw] ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1dbb8f89-b68d-407e-803a-694755084ec6/AS+M+ACG+HIKE+SHORT.png"
+                            alt="">
+                        <div class="details h-[20vh]">
+                            <p class="font-semibold">Jordan Flight Fleece</p>
+                            <p>Mens Pullover Hoodie</p>
+                            <p class="mrp font-semibold">MRP : $200</p>
+                        </div>
+                    </div>
+
+
+                    <div class="card flex flex-col w-[33vw]">
+                        <img class=""
+                            src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/a9894a38-f780-4196-b7e1-e13017da5839/NIKE+C1TY.png"
+                            alt="">
+                        <div class="details h-[20vh]">
+                            <p class="font-semibold">Jordan Flight Fleece</p>
+                            <p>Mens Pullover Hoodie</p>
+                            <p class="mrp font-semibold">MRP : $200</p>
+                        </div>
+                    </div>
+
+                    <div class="card flex flex-col w-[33vw] ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco,u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ccf29bc7-646d-4579-b212-50b99d525556/JORDAN+ADG+5.png"
+                            alt="">
+                        <div class="details h-[20vh]">
+                            <p>Jordan Flight Fleece</p>
+                            <p>Mens Pullover Hoodie</p>
+                            <p class="mrp">MRP : $200</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section> -->
+
+        <section class="mt-20" >
+            <div class="TheLatest mx-auto mr-8">
+                <div class="flex justify-between text-2xl font-semibold h-[10vh]">
+                    The Latest
+                    <div class="move flex gap-4">
+
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="images flex   gap-4">
+                <div class="4rules ml-8 ">
+                    <img class="bg-cover" src="https://i.ytimg.com/vi/kZNHaUtLCnA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBOwXTXamANVCRXgE_m45zVtkdhIg" alt="">
+
+                    <div class="details relative bottom-40 text-white w-62 font-semibold ml-5 space-y-2">
+                        <h4>Breaking4</h4>
+                        <p>Faith Kipyegon vs The 4-Minute Mile on June 26th</p>
+                        <Button class="bg-white text-black rounded-full p-2">Mark Your Calendar</Button>
+                    </div>
+                </div>
+                <div class="4rules ml-8 ">
+                    <img class="bg-cover" src="https://i.ytimg.com/vi/kZNHaUtLCnA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBOwXTXamANVCRXgE_m45zVtkdhIg" alt="">
+
+                    <div class="details relative bottom-40 text-white w-62 font-semibold ml-5 space-y-2">
+                        <h4>Breaking4</h4>
+                        <p>Faith Kipyegon vs The 4-Minute Mile on June 26th</p>
+                        <Button class="bg-white text-black rounded-full p-2">Mark Your Calendar</Button>
+                    </div>
+                </div>
+                
+                <!-- <div class="norBlackNorWhute w-[45vw] h-[20vh]">
+                    <img class="bg-cover" src="https://media.about.nike.com/image-downloads/ccdc980b-ce17-470f-a8ac-ac70a3232004/nike-x-norblack-norwhite-10.jpeg" alt="">
+                </div> -->
+            </div>
+        </section>
+<!-- 
+    _______________________________________________________________________________________________________________________________________________________________________________________________ -->
+        <section class="">
+            <div class="Dads ml-8 mr-8 ">
+
+                <div class="flex justify-between text-2xl font-semibold h-[10vh]">
+                    Featured
+                    <div class="move flex gap-4">
+
+                        <img src="https://img.icons8.com/?size=100&id=60636&format=png&color=000000" alt=""
+                            class="left  bg-slate-100 rounded-s-full rounded-e-full h-10">
+                        <img src="https://img.icons8.com/?size=100&id=7849&format=png&color=000000" alt=""
+                            class="right bg-slate-100 rounded-full h-9">
+                    </div>
+                </div>
+
+                <div class="w-[95vw] flex  flex-nowrap whitespace-nowrap overflow-auto font-semibold ">
+                    <div class="card  w-[33vw] text-xl ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/h_368,c_limit/0f658abe-551e-4e1d-b776-76812388a48a/nike-just-do-it.png"
+                            alt="">
+                        <div class="details h-[20vh] text-xl ">
+                            <p>Cool For The Summer</p>
+
+                        </div>
+                    </div>
+                    <div class="card  w-[33vw] h-[20vh] text-xl ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/h_368,c_limit/99b2fc14-2ca4-4d94-8fae-93b6ea8ed167/image.png"
+                            alt="">
+                        <div class="details  ">
+                            <p>Retro Running</p>
+
+                        </div>
+                    </div>
+                    <div class="card  w-[33vw] h-[20vh]">
+                        <img class=""
+                            src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/h_368,c_limit/99b2fc14-2ca4-4d94-8fae-93b6ea8ed167/image.png"
+                            alt="">
+                        <div class="details  ">
+                            <p>Field General</p>
+
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <!-- _______________________________________________________________________________________________________________________________________________________________________________________________ -->
+        <section class="latest mt-20">
+            <div class="Latest w-[90vw] m-auto font-semibold">
+                <div class=" text-2xl">Don't Miss</div>
+                <div class="image  mx-auto mt-2 ">
+                    <img class="w-[100vw] m-auto" src="assets/Screenshot 2025-06-17 214740.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="text flex flex-col items-center mt-4 gap-5">
+                <p>Women's Air Jordan Collection</p>
+                <p class=" text-7xl font-extrabold">
+                    SHOW 'EM UP
+                </p>
+                <P>
+                    Crafted for your flyest self, the new Air Jordan Collection Brings iconic Prints and elevated cuts.
+                </P>
+                <button class="bg-black text-white w-24 rounded-xl">
+                    Shop Now
+                </button>
+
+            </div>
+        </section>
+<!-- _______________________________________________________________________________________________________________________________________________________________________________________________ -->
+        <section>
+            <div class="Dads ml-8 mr-8 w-[vw]">
+
+                <div class="flex justify-between text-2xl font-semibold h-[10vh]">
+                    Shop By Icons
+                    <div class="move flex gap-4">
+
+                        <img src="https://img.icons8.com/?size=100&id=60636&format=png&color=000000" alt=""
+                            class="left  bg-slate-100 rounded-s-full rounded-e-full h-10">
+                        <img src="https://img.icons8.com/?size=100&id=7849&format=png&color=000000" alt=""
+                            class="right bg-slate-100 rounded-full h-9">
+                    </div>
+                </div>
+
+                <div class="w-[95vw] flex  flex-nowrap whitespace-nowrap overflow-auto ">
+                    <div class="card  w-[33vw] flex-shrink-0 ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/92428991-be08-45f1-9da8-3cf082c0a00e/W+NIKE+VOMERO+18.png"
+                            alt="">
+                            <p class="relative bottom-16 text-center font-bold text-3xl  ">Vomero 18</p>
+                        
+                    </div>
+                    
+                    <div class="card  w-[33vw] flex-shrink-0 ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/3e8455ad-c00c-4996-a85a-b5c4d38c6ae2/W+NIKE+V2K+RUN.png"
+                            alt="">
+                            <p class="relative bottom-16 text-center font-bold text-3xl  ">V2K</p>
+                        <div class="details h-[20vh] ">
+
+                        </div>
+                    </div>
+                    <div class="card  w-[33vw] flex-shrink-0 ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c9997473-1c89-4928-a0a6-d99a173619c5/AIR+ZOOM+PEGASUS+41JI.png"
+                            alt="">
+                            <p class="relative bottom-16 text-center font-bold text-3xl  ">Pegasus 41</p>
+                        
+                    </div>
+                    <div class="card  w-[33vw] flex-shrink-0 ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/4ee1d6f1-5efc-4e2a-84a6-7e40b02de73d/NIKE+ZOOM+VOMERO+5.png"
+                            alt="">
+                            <p class="relative bottom-16 text-center font-bold text-3xl  ">Vomero 5</p>
+                       
+                    </div>
+                    
+                </div>
+            </div>
+        </section> 
+                    
+                    
+        <!-- _______________________________________________________________________________________________________________________________________________________________________________________________ -->
+                    
+                    
+                    
+                    
+
+
+
+         <section class="mt-20">
+            <div class="Dads ml-8 mr-8 ">
+
+                <div class="flex justify-between text-2xl font-semibold h-[10vh]">
+                    Trending Now
+                    <div class="move flex gap-4">
+
+                        <img src="https://img.icons8.com/?size=100&id=60636&format=png&color=000000" alt=""
+                            class="left  bg-slate-100 rounded-s-full rounded-e-full h-10">
+                        <img src="https://img.icons8.com/?size=100&id=7849&format=png&color=000000" alt=""
+                            class="right bg-slate-100 rounded-full h-9">
+                    </div>
+                </div>
+
+                <div class="w-[95vw] flex  flex-nowrap whitespace-nowrap overflow-auto   ">
+                    <div class="card  w-[33vw]  ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.3/h_461,c_limit/e16c84f0-9425-4d41-9e58-850344121c07/motiva-norblack-norwhite-walking-shoes-MpHcrv.png"
+                            alt="">
+                        <div class="details h-[20vh]   ">
+                            <p class="font-semibold">Nike Motiva x NorBlack NorWhite</p>
+                            <p class="">Women's walking Shoes</p>
+                            <p class="mrp font-semibold mt-2">MRP:  ₹10 759.00</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card  w-[33vw]  ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.3/h_461,c_limit/9e6fe7f4-d813-463a-8448-5d31aa616fdf/artist-collection-oversized-cropped-graphic-t-shirt-NRt3ZF.png"
+                            alt="">
+                        <div class="details h-[20vh]   ">
+                            <p class="font-semibold">Nike Women's Artist Collection</p>
+                            <p class="">Women's oversized Cropped Graphics</p>
+                            <p class="mrp font-semibold mt-2">MRP:  ₹2 195.00</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card  w-[33vw]  ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.3/h_461,c_limit/a57ea502-fedc-41cb-9496-0a86658120cb/norblack-norwhite-dri-fit-printed-leggings-QhFl1W.png"
+                            alt="">
+                        <div class="details h-[20vh]   ">
+                            <p class="font-semibold">Nike x NorBlack Norwhite</p>
+                            <p class="">Women's Dri-Fit Printed Leggings</p>
+                            <p class="mrp font-semibold mt-2">MRP:  ₹5 495.00</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card  w-[33vw]  ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.3/h_461,c_limit/f3e37f32-cc20-4301-8a87-61e547a6a2df/heritage-norblack-norwhite-cross-body-bag-MQ7XWM.png"
+                            alt="">
+                        <div class="details h-[20vh]   ">
+                            <p class="font-semibold">Nike Heritage x NorBlack Norwhite</p>
+                            <p class="">Cross-Body bag (4L)</p>
+                            <p class="mrp font-semibold mt-2">MRP: ₹1 895.00</p>
+
+                        </div>
+                    </div>
+
+                    <div class="card  w-[33vw]  ">
+                        <img class=""
+                            src="https://static.nike.com/a/images/q_auto:eco/t_product_v1/f_auto/dpr_1.3/h_461,c_limit/4a730b10-3ba9-4f53-87b9-0d879c9c3d4a/norblack-norwhite-dri-fit-printed-tank-top-GbLhbH.png"
+                            alt="">
+                        <div class="details h-[20vh]   ">
+                            <p class="font-semibold">Nike x NorBlack Norwhite</p>
+                            <p class="">Women's Dro-Fit Printed Tank Top</p>
+                            <p class="mrp font-semibold mt-2">MRP:  ₹2 995.00</p>
+
+                        </div>
+                    </div>
+                    
+                    
+                    
+
+                </div>
+            </div>
+        </section> 
+       
+
+
+        <!-- ___________________________________________________________________________ -->
+
+
+        <section class="mt-20 ">
+            <div class="Dads ml-8 mr-8 ">
+
+                <div class="flex justify-between text-2xl font-semibold h-[10vh]">
+                    Shop By Sport
+                    <div class="move flex gap-4">
+
+                        <img src="https://img.icons8.com/?size=100&id=60636&format=png&color=000000" alt=""
+                            class="left  bg-slate-100 rounded-s-full rounded-e-full h-10">
+                        <img src="https://img.icons8.com/?size=100&id=7849&format=png&color=000000" alt=""
+                            class="right bg-slate-100 rounded-full h-9">
+                    </div>
+                </div>
+
+                <div class="w-[95vw]  flex  flex-x-nowrap whitespace-nowrap overflow-x-auto ">
+                    
+
+                    <div class="card  w-[28%] h-[40vh] ">
+                        
+                        <img class="object-cover"
+                            src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/h_300,c_limit/0918b596-bcff-46a7-ba08-8384e7fcdd08/nike-just-do-it.jpg"
+                            alt="">
+
+                            <button class="text-black bg-white rounded-full relative bottom-16 left-16 py-2 px-6 font-semibold">
+                                Football 
+                            </button>
+                        
+                    </div>
+                    <!-- <div class="card  w-[28%] h-[40vh] ">
+                        
+                        <img class="h-[100%] w-[100%] object-cover"
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNRXlwu6lHcNsJLXD4XFgzAyJLLmALD9-fIA&s"
+                            alt="">
+
+                            <button class="text-black bg-white rounded-full relative bottom-16 left-16 py-2 px-6 font-semibold">
+                                BasketBall 
+                            </button>
+                        
+                    </div>
+                    <div class="card  w-[28%] h-[40vh] ">
+                        
+                        <img class="h-[100%] w-[100%] object-cover"
+                            src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/h_300,c_limit/0918b596-bcff-46a7-ba08-8384e7fcdd08/nike-just-do-it.jpg"
+                            alt="">
+
+                            <button class="text-black bg-white rounded-full relative bottom-16 left-16 py-2 px-6 font-semibold">
+                                Football 
+                            </button>
+                        
+                    </div>
+                    
+                    <div class="card  w-[28%] h-[40vh] ">
+                        
+                        <img class="h-[100%] w-[100%] object-cover"
+                            src="https://static.nike.com/a/images/f_auto/dpr_3.0,cs_srgb/h_300,c_limit/0918b596-bcff-46a7-ba08-8384e7fcdd08/nike-just-do-it.jpg"
+                            alt="">
+
+                            <button class="text-black bg-white rounded-full relative bottom-16 left-16 py-2 px-6 font-semibold">
+                                Football 
+                            </button>
+                        
+                    </div> -->
+
+                    
+
+                    
+
+                    
+                    
+                    
+                    
+
+                </div>
+            </div>
+        </section>
+        
+        
+
+
+
+    </main>
+
+    <footer>
+        <section class="my-20">
+            <hr class="">
+            <div class="foot flex relative w-[90vw] mx-auto my-10 gap-24">
+                <div class="sections flex flex-col gap-2">
+                    <p class="font-semibold my-2" >Resources</p>
+                    <a class="text-slate-600" href="">Find A Store</a>
+                    <a class="text-slate-600" href="">Become A Member</a>
+                    <a class="text-slate-600" href="">Running Shoe Finder </a>
+                    <a class="text-slate-600" href="">Product Advice</a>
+                    <a class="text-slate-600" href="">Send Us Feedback</a>
+                </div>
+                <div class="sections flex flex-col gap-2">
+                    <p class="font-semibold my-2 ">Help</p>
+                    <a class="text-slate-600" href="">Get Help</a>
+                    <a class="text-slate-600" href="">Order Status</a>
+                    <a class="text-slate-600" href="">Dilevery</a>
+                    <a class="text-slate-600" href="">Returns</a>
+                    <a class="text-slate-600" href="">Payment Options </a>
+                    <a class="text-slate-600" href="">Contact Us On Nike.com Inquiries </a>
+                    <a class="text-slate-600" href="">Contact Us On All Other Inquiries </a>
+                    
+                </div>
+                <div class="sections flex flex-col gap-2">
+                    <p class="font-semibold my-2">Company</p>
+                    <a class="text-slate-600" href="">About Nike</a>
+                    <a class="text-slate-600" href="">News</a>
+                    <a class="text-slate-600" href="">careers </a>
+                    <a class="text-slate-600" href="">Investors</a>
+                    <a class="text-slate-600" href="">Sustainability</a>
+                    <a class="text-slate-600" href="">Report a Concern</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="my-10">
+            <div class="last text-slate-600 flex gap-10 w-[90vw] mx-auto">
+                <div>
+                <ul class="flex gap-10">
+                    <li><span>© 2025 Nike, Inc. All rights reserved</span></li>
+                    <li><select name="Guide" placeholder="Guide" id="">
+                        <Option>Nike Air</Option>
+                        <Option>Nike Air Force 1 </Option>
+                        <Option>Nike Air Max</Option>
+                        <Option>Nike FlyEase</Option>
+                        <Option>Nike Flynit</Option>
+                        <Option>Nike Flyleather</Option>
+                        <Option>Nike Free</Option>
+                        <Option>Nike Joyride</Option>
+                        <Option>Nike Pegasus</Option>
+                        <Option>Nike React</Option>
+                        <Option>Nike Vaporfly</Option>
+                        <Option>Nike Zoom Fly</Option>
+                        <Option>Nike ZoomX</Option>
+                        
+                    </select></li>
+                    <li>Terms of Sale</li>
+                    <li>Terms of Use</li>
+                    <li>Nike Privacy Policy</li>
+                </ul>
+                </div>
+
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
